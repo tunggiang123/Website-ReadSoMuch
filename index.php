@@ -8,7 +8,7 @@
 <body>
 	<div>
 		<?php 
-				// 1. Chuỗi kết nối đến CSDL
+		// 1. Chuỗi kết nối đến CSDL
 		$ket_noi = mysqli_connect("remotemysql.com:3306", "MFjxl5C769", "4yl0CnAF1W", "MFjxl5C769");
 		// 2. Viết câu lệnh SQL để lấy ra dữ liệu mong muốn
 		$sql = "
